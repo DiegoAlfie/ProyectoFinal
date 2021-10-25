@@ -1,0 +1,31 @@
+
+
+.main {
+  .conteiner-fluid {
+    padding: 40px;
+    margin: 20px;
+  }
+
+  .col-12 {
+    margin: 20px;
+  }
+
+  .carrion {
+    float: left;
+    padding: 20px;
+  }
+
+  .articulos {
+    padding: 20px;
+    border: double;
+  }
+}
+.banner-area4 {
+  background-image: url(../imagenes/bagmano2.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 25rem;
+}

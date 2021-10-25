@@ -1,0 +1,53 @@
+.main-servicios {
+  width: 90%;
+  max-width: 100vw;
+  margin: 10px auto;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "Hotel Auto asis" "crucero universal disney";
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  background-color: #063041;
+  justify-items: center;
+
+  .reserva {
+    width: 400px;
+    height: 32vh;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    .Hotel {
+      background-color: whitesmoke;
+      grid-area: Hotel;
+    }
+
+    .Auto {
+      background-color: whitesmoke;
+      grid-area: Auto;
+    }
+
+    .asis {
+      background-color: whitesmoke;
+      grid-area: asis;
+    }
+
+    .disney {
+      background-color: whitesmoke;
+      grid-area: disney;
+    }
+
+    .crucero {
+      background-color: whitesmoke;
+      grid-area: crucero;
+    }
+
+    .universal {
+      background-color: whitesmoke;
+      grid-area: universal;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Compania Aérea Eleva - Check-in On line</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Puedes hacerlo en línea entre 48 y 2 horas antes de tu vuelo. Recomendaciones para que tu Check-in online sea exitoso. Tu pasaje debe ser un Ticket electrónico.">
+  <meta name="keywords"
+    content="checkin, on line, equipaje despachado, promociones, ciudades, luggage, mercosur, turismo, ticket electrónico, reserva, valija, bag, suitcase">
+  <!-- link de bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- link de css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="imagenes/logoultimo.jpg">
+</head>
+
+<body>
+  <!-- Comienza barra navegador Bootstrap-->
+  <div class="container-fluid">
+    <header class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="imagenes/logoultimo.jpg" alt="foto de la empresa">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active navbar navbar-dark bg-primary text-light" aria-current="page"
+                href="mireserva.html">Mi reserva</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="checkin.html">Check-in
+                Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="estadodelvuelo.html">Estado del
+                vuelo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle navbar navbar-dark bg-primary text-light" href="#"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Adicionales
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                    href="servicios.html">Servicios</a></li>
+                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                    href="condicionesyterminos.html">Condiciones</a></li>
+                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="bags.html">Restringidos</a>
+                </li>
+                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="mascotas.html">Mascotas</a>
+                </li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link active navbar navbar-dark bg-info text-light" href="index.html">Volver Inicio</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success navbar navbar-dark bg-primary text-light" type="submit">Buscar</button>
+        </form>
+  </div>
+  </nav>
+
+  </header>
+  <!--Comienza formulario check in-->
+  <main class="main">
+    <h1>Check-in on Line</h1>
+    <div class="banner-area2">
+      <div class="formureserva">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Código de Reserva</label>
+            <input type="email" class="form-control" placeholder="Ej: XCDREE" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Pasajero</label>
+            <input type="password" class="form-control" placeholder="Apellido">
+          </div>
+          <div>
+            <label for="Términos">He leído y acepto las <a href="condicionesyterminos.html" style="color:antiquewhite"
+                target="_blanc">Condiciones</a> y términos</label>
+            <input type="checkbox" name="términos" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <!--Contáctos y Redes-->
+  <footer>
+    <div class="autor">
+      <p>
+        Creado por Diego Gil
+      </p>
+    </div>
+    <div class="redes">
+      <a href="https://es-la.facebook.com/aerolineas.argentinas/"target="_blanc"><img src="gifs/face.gif" alt="logo facebook"></a>
+      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/"target="_blanc"><img src="gifs/insta.gif"
+          alt="logo instagram"></a>
+      <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161"target="_blanc"><img src="gifs/mail.gif"
+          alt="logo twitter"></a>
+    </div>
+    </section>
+  </footer>
+  <!-- js bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

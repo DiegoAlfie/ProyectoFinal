@@ -1,0 +1,88 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightseagreen;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  min-height: 100vh;
+}
+
+nav {
+  background-color: antiquewhite;
+}
+.borderedondeado {
+  border-radius: 50%;
+  border-color: white;
+}
+
+/*Títulos*/
+h2 {
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 5px;
+}
+h1 {
+  background-color: rgb(11, 42, 54);
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 15px;
+  width: 100%;
+}
+h3 {
+  color: antiquewhite;
+  letter-spacing: 5px;
+  text-align: center;
+}
+h4 {
+  color: bisque;
+  letter-spacing: 5px;
+  text-align: center;
+}
+/* Formulario Mi reserva*/
+.formureserva {
+  background-color: teal;
+  opacity: 0.9;
+  color: antiquewhite;
+  margin: auto;
+  width: 500px;
+  padding: 30px;
+}
+/*Footer*/
+footer {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  background-color: teal;
+  padding: 1rem;
+  width: 95%;
+  height: 100px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  .redes {
+    color: #8d8c86;
+    margin-left: 1.5;
+    width: 2rem;
+    display: flex;
+    img {
+      width: 2.5rem;
+    }
+  }
+  .autor {
+    font-weight: bold;
+  }
+}
+
+/*carrusell*/
+.textocolor {
+  color: whitesmoke;
+}

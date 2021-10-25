@@ -1,0 +1,67 @@
+
+/*Formulario Index*/
+.main {
+  .formulario {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: black;
+    background-position: center;
+    padding: 1.2rem;
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  line-height: 3rem;
+  background-color: teal;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 1.4rem;
+  width: 500px;
+}
+
+/*Imagenes Promociones Pagina Inicial*/
+.imagenes {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 50px;
+
+  .contenido {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+
+    &:hover {
+      transform: scale(1.5, 1.5);
+    }
+
+    .text {
+      position: absolute;
+      font-size: 22px;
+      color: whitesmoke;
+
+      &.text1 {
+        top: 10px;
+        left: 10px;
+      }
+
+      &.text2 {
+        top: 80%;
+        right: 10%;
+      }
+    }
+  }
+}

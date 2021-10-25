@@ -1,0 +1,39 @@
+
+$width: 900px;
+@mixin espaciado {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+main {
+  .box1 {
+    @include espaciado();
+    background-color: darkorange;
+    width: $width * 2;
+  }
+  .box2 {
+    @include espaciado();
+    background-color: darkorange;
+    width: $width / 2;
+  }
+  .box3 {
+    @include espaciado();
+    background-color: darkorange;
+    width: $width * 1.5;
+  }
+  .box4 {
+    @include espaciado();
+    background-color: darkorange;
+    width: $width + 100px;
+  }
+  .box5 {
+    @include espaciado();
+    background-color: darkorange;
+    width: $width * 3;
+  }
+  .box6 {
+    @include espaciado();
+    background-color: darkorange;
+    width: $width / 3;
+  }
+}

@@ -1,0 +1,56 @@
+@import "compartido";
+
+
+$bgmasco1: #12203e;
+$bgmasco2: #168f8f;
+$bgmasco3: #531068;
+
+@mixin condition($color) {
+  background-color: ($color);
+  @if $color == $bgmasco1 {
+    color: white;
+  } @else if $color == $bgmasco2 {
+    color: yellow;
+    font-style: italic;
+  } @else if $color == $bgmasco3 {
+    color: goldenrod;
+  } @else {
+    color: blueviolet;
+  }
+}
+main {
+  .textomascota {
+    @include condition($bgmasco1);
+  }
+  .textomascota1{
+    @include condition($bgmasco3)
+  }
+}
+.mascota {
+  float: left;
+  padding: 20px;
+  &:hover {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.caja {
+  border-style: double;
+  width: 80%;
+  height: 450px;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+ 
+
+  .cajaRoja {
+    @extend .caja;
+    border: 5px red solid;
+    background-color: coral;
+  }
+  .cajaNegra {
+    @extend .caja;
+    border: 5px black solid;
+    background-color: burlywood;
+  }
+}
