@@ -6,6 +6,11 @@
   <title>Compania Aérea Eleva - Transporte de Mascotas</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN de estilos Animate-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
   <meta name="description"
     content="Recuerda que si tu mascota no cumple con los requisitos para viajar en cabina, deberás llevarla en la bodega del avión.">
   <meta name="keywords"
@@ -15,7 +20,7 @@
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <!-- link de css -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="imagenes/logoultimo.jpg">
+  <link rel="shortcut icon" href="imagenes/fotonlogo.png">
 </head>
 
 <body>
@@ -23,38 +28,40 @@
   <div class="container-fluid">
     <header class="row">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="imagenes/logoultimo.jpg" alt="foto de la empresa">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/fotonlogo.png" width="100px" height="100px" alt="foto de la empresa">
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" aria-current="page"
+              <a class="nav-link active navbar navbar-dark text-dark" aria-current="page"
                 href="mireserva.html">Mi reserva</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="checkin.html">Check-in
-                Online</a>
+              <a class="nav-link active navbar navbar-dark  text-dark" href="checkin.html">Check-in
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="estadodelvuelo.html">Estado del
+              <a class="nav-link active navbar navbar-dark  text-dark" href="estadodelvuelo.html">Estado del
                 vuelo</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle navbar navbar-dark bg-primary text-light" href="servicios.html"
+              <a class="nav-link active dropdown-toggle navbar navbar-dark  text-dark" href="servicios.html"
                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Adicionales
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                <li><a class="dropdown-item navbar navbar-dark  text-dark"
                     href="servicios.html">Servicios</a></li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                <li><a class="dropdown-item navbar navbar-dark  text-dark"
                     href="condicionesyterminos.html">Condiciones</a></li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="bags.html">Restringidos</a>
+                <li><a class="dropdown-item navbar navbar-dark  text-dark" href="bags.html">Restringidos</a>
                 </li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="mascotas.html">Mascotas</a>
+                <li><a class="dropdown-item navbar navbar-dark  text-dark" href="mascotas.html">Mascotas</a>
                 </li>
               </ul>
             <li class="nav-item">
@@ -63,10 +70,6 @@
             </li>
           </ul>
         </div>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success navbar navbar-dark bg-primary text-light" type="submit">Search</button>
-        </form>
   </div>
   </nav>
 
@@ -74,85 +77,70 @@
 
   <!--Textos badges...-->
   <main>
-    <h1>Mascotas</h1>
-    <h2>Transporte de mascotas en cabina<span class="badge bg-info">Novedad</span></h2>
+    <h1 class="animate__animated animate__backInLeft">Mascotas</h1>
+    <h2>Transporte de mascotas en cabina<span class="badge bg-info animate__animated animate__backInLeft">Novedad</span></h2>
     <section>
       <img class="mascota" src="imagenes/mascotacabina.jpg" width="500px" height="300px" alt="imagen de mascota">
-      <p class="textomascota"><br> <strong> Podes viajar con tu perro o gato en cabina, en todas las rutas que opera
-          Aerolíneas Argentinas. Las condiciones generales para su traslado </strong><br>
-        1 - Poseer la documentación necesaria según destino. Ver sección Documentación <br>
-        2 - Realizar la reserva con un mínimo de 72 horas de antelación a la partida de tu vuelo a través de nuestro
+      <p class="textomascota"><br> <strong> Podes viajar con tu perro o gato en cabina, en todas las rutas que opera Aerolíneas Argentinas. Las condiciones generales para su traslado </strong></p>
+
+      <p> 1 - Poseer la documentación necesaria según destino. Ver sección Documentación
+       2 - Realizar la reserva con un mínimo de 72 horas de antelación a la partida de tu vuelo a través de nuestro
         wapp (54 9 11 4940 4798). Para la confirmación del servicio, será necesario primero el pago del mismo. También
         podes hacerlo en el Aeropuerto, ÚNICAMENTE el día del vuelo, pero en este caso el servicio será condicional a la
-        disponibilidad. <br><br>
-        3 - Los menores viajando solos no podrán trasladar animales bajo este régimen. <br>
-        4 - Se aceptará el traslado de un perro o gato por pasajero y por contenedor. El traslado de mascotas por
+        disponibilidad. 
+       3 - Los menores viajando solos no podrán trasladar animales bajo este régimen.
+       4 - Se aceptará el traslado de un perro o gato por pasajero y por contenedor. El traslado de mascotas por
         pasajero como equipaje acompañado es de 2 (dos). Se aceptará el traslado de una segunda mascota en bodega (con
-        las condiciones de ese traslado, ver sección Transporte de mascotas en bodega). <br>
-
-        5 - La mascota deberá trasladarse en un contenedor (jaula) provisto por el pasajero. <br>
-
-        6 - Características de la mascota a transportar: <br>
-        • La edad mínima permitida de la mascota para realizar el viaje es de 12 (doce) semanas, excepto para viajes
-        desde/hacia Estados Unidos que es de 16 (dieciséis) semanas. br
-        • El peso máximo permitido a transportar por mascota es de 9 (nueve) kilos con contenedor incluido.
-        • Las razas de perros y gatos "braquicéfalos” serán aceptadas para el transporte en cabina. <br>
-        • No se permiten perros/gatos con tratamiento veterinario. <br>
-        • No se admiten perros/gatos que se muestren agresivos con las personas o que puedan resultar peligrosos o
-        causar molestias a los pasajeros o a la tripulación. <br>
-        • El perro/gato debe ser presentado higienizado a fin de evitar molestias entre los pasajeros. <br>
-        7 - Aspectos del viaje: <br>
-        • Se permite el acceso a salones VIP siempre y cuando los animales permanezcan dentro de su contenedor. <br>
-        • En el vuelo la mascota NO podrá abandonar su alojamiento, ni asomar su cabeza por fuera del contenedor en
-        ningún momento. <br>
-        • No se podrá proveer de ningún tipo de alimentos o bebidas a la mascota durante el vuelo. Los pasajeros deben
-        contemplar la duración del viaje a fin de prever las necesidades de su mascota. <br>
-        8 - El servicio está sujeto a disponibilidad en cada cabina (No se permite el traslado de mascota en cabina
-        Business a destinos internacionales operados por equipos Airbus 330)</p>
-      <h2>Transporte de mascotas en bodega<span class="badge bg-info">Novedad</span></h2>
+        las condiciones de ese traslado, ver sección Transporte de mascotas en bodega).
+       5 - La mascota deberá trasladarse en un contenedor (jaula) provisto por el pasajero.
+       6 - Características de la mascota a transportar: </p>
+      <p>  • La edad mínima permitida de la mascota para realizar el viaje es de 12 (doce) semanas, excepto para viajes desde/hacia Estados Unidos que es de 16 (dieciséis) semanas.</p>
+      <p>  • El peso máximo permitido a transportar por mascota es de 9 (nueve) kilos con contenedor incluido.</p>
+      <p>  • Las razas de perros y gatos "braquicéfalos” serán aceptadas para el transporte en cabina.</p>
+      <p>  • No se permiten perros/gatos con tratamiento veterinario.</p>
+      <p>  • No se admiten perros/gatos que se muestren agresivos con las personas o que puedan resultar peligrosos o causar molestias a los pasajeros o a la tripulación.</p>
+      <p>  • El perro/gato debe ser presentado higienizado a fin de evitar molestias entre los pasajeros.</p>
+      <p>  7 - Aspectos del viaje:</p>
+      <p>  • Se permite el acceso a salones VIP siempre y cuando los animales permanezcan dentro de su contenedor.</p>
+      <p>  • En el vuelo la mascota NO podrá abandonar su alojamiento, ni asomar su cabeza por fuera del contenedor en ningún momento.</p>
+      <p>  • No se podrá proveer de ningún tipo de alimentos o bebidas a la mascota durante el vuelo. Los pasajeros deben contemplar la duración del viaje a fin de prever las necesidades de su mascota.</p>
+      <p>  8 - El servicio está sujeto a disponibilidad en cada cabina (No se permite el traslado de mascota en cabina Business a destinos internacionales operados por equipos Airbus 330)</p>
+      <h2 class="animate__animated animate__backInLeft">Transporte de mascotas en bodega<span class="badge bg-info">Novedad</span></h2>
       <img class="mascota" src="imagenes/mascota en bodega.jpg" width="500px" height="300px" alt="imagen de mascota">
-      <p class="textomascota1"><br> <strong>Transportamos mascotas (perros y gatos) como equipaje acompañado.</strong>
-        <br><br>
-        1 - Poseer la documentación necesaria según destino, ver sección Documentación. <br>
-        2 - Realizar la reserva hasta 48 horas antes de la partida de tu vuelo. a través de nuestro Wapp (54 9 11 4940
-        4798). <br><br>
-        3 - La reserva para el traslado de mascotas ES CONDICIONAL dependiendo de: <br>
-        • las condiciones de las bodegas de las aeronaves para transportar un animal en forma segura, <br>
-        • la situación climática imperante al momento del embarque en origen, conexión y destino. <br>
-        • La reserva no garantiza al pasajero que su mascota pueda embarcar en el vuelo reservado. <br>
-        4 - La edad mínima permitida de la mascota para poder realizar el viaje es de 12 (doce) semanas, excepto para
-        viajes desde/hacia Estados Unidos que es de 16 (dieciséis) semanas. <br>
-        5 - Podrás viajar como máximo con 2 (dos) mascotas por pasajero -como equipaje acompañado-. Esta limitación se
-        debe entender dentro de las condiciones de cada servicio. Por esta razón, pueden darse las siguientes
-        situaciones: <br>
-        • Trasladar 1 (una) mascota en cabina y una segunda mascota en bodega. <br>
-        • Trasladar 2 (dos) mascotas en bodega. <br>
-        • Si deseas viajar con una cantidad superior a 2 mascotas, podrás trasladar las mismas por Cargas., cumpliendo
-        los requisitos, condiciones, tiempos y cargos correspondientes. <br>
-        6 - Deberás proveer un contenedor para el traslado de tu mascota. <br>
-        7 - Si tenes vuelos en conexión con otras compañías deberás contactarlas para conocer sus requisitos para el
-        traslado de mascotas. <br><br>
-        <strong>Condiciones de aceptación del contenedor:</strong> <br><br>
-        a - Tener fondo impermeable y ventilación lateral. <br>
-        b - Ser de material rígido, con puerta metálica y traba de seguridad, que garantice que no va a abrirse en
-        ningún momento del vuelo, caso contrario llevará un precinto metálico de seguridad. <br>
-        c - Ser lo suficientemente amplio como para permitir que la mascota se ponga de pie, pueda sentarse erguido,
-        girar sobre su propio eje y recostarse en posición natural. <br>
-        d - La cabeza del gato o perro (incluyendo las orejas) no debe tocar la parte superior del canil, mientras que
-        esté sentado o de pie en el interior. <br>
-        e - Sólo se puede trasladar un animal por jaula/contenedor. Con la excepción de que podrán compartir
-        jaula/contenedor en las siguientes situaciones: <br>
-        • hasta 2 (dos) cachorros de tamaño similar, con edades de entre 12 semanas y 6 meses (documentado), <br>
-        • 2 (dos) animales adultos de tamaño similar y hasta 14 kg cada uno, <br>
-        • 1 (una) madre con 1 (un) cachorro todavía dependiente de ella (12 semanas a 6 meses). <br>
-        Para poder transportar varios animales en el mismo contenedor, es necesario que todos ellos puedan ponerse de
+      
+        
+      <p> - Poseer la documentación necesaria según destino, ver sección Documentación. 
+         Realizar la reserva hasta 48 horas antes de la partida de tu vuelo. a través de nuestro Wapp (54 9 11 4940-4798). 
+         La reserva para el traslado de mascotas ES CONDICIONAL dependiendo de: </p>
+      <p>  • las condiciones de las bodegas de las aeronaves para transportar un animal en forma segura,</p>
+      <p>  • la situación climática imperante al momento del embarque en origen, conexión y destino. </p>
+      <p>  • La reserva no garantiza al pasajero que su mascota pueda embarcar en el vuelo reservado. </p>
+      <p> - La edad mínima permitida de la mascota para poder realizar el viaje es de 12 (doce) semanas, excepto para viajes desde/hacia Estados Unidos que es de 16 (dieciséis) semanas. 
+          Podrás viajar como máximo con 2 (dos) mascotas por pasajero -como equipaje acompañado-. Esta limitación se debe entender dentro de las condiciones de cada servicio. Por esta razón, pueden darse las siguientes situaciones: </p> 
+      <p>  • Trasladar 1 (una) mascota en cabina y una segunda mascota en bodega. </p>
+      <p>  • Trasladar 2 (dos) mascotas en bodega.</p>
+      <p>  • Si deseas viajar con una cantidad superior a 2 mascotas, podrás trasladar las mismas por Cargas., cumpliendo
+        los requisitos, condiciones, tiempos y cargos correspondientes.</p>
+      <p> - Deberás proveer un contenedor para el traslado de tu mascota. 
+         Si tenes vuelos en conexión con otras compañías deberás contactarlas para conocer sus requisitos para el traslado de mascotas.</p>
+        <p><strong>Condiciones de aceptación del contenedor:</strong></p> 
+        <p> a - Tener fondo impermeable y ventilación lateral.</p>
+        <p> b - Ser de material rígido, con puerta metálica y traba de seguridad, que garantice que no va a abrirse en
+        ningún momento del vuelo, caso contrario llevará un precinto metálico de seguridad.</p>
+        <p> c - Ser lo suficientemente amplio como para permitir que la mascota se ponga de pie, pueda sentarse erguido,
+        girar sobre su propio eje y recostarse en posición natural.</p>
+        <p> d - La cabeza del gato o perro (incluyendo las orejas) no debe tocar la parte superior del canil, mientras que esté sentado o de pie en el interior.</p>
+        <p> e - Sólo se puede trasladar un animal por jaula/contenedor. Con la excepción de que podrán compartir jaula/contenedor en las siguientes situaciones: </p>
+        <p> • hasta 2 (dos) cachorros de tamaño similar, con edades de entre 12 semanas y 6 meses (documentado), 
+      <p>  • 2 (dos) animales adultos de tamaño similar y hasta 14 kg cada uno, </p>
+      <p>  • 1 (una) madre con 1 (un) cachorro todavía dependiente de ella (12 semanas a 6 meses).</p>
+      <p>  Para poder transportar varios animales en el mismo contenedor, es necesario que todos ellos puedan ponerse de
         pie y adoptar su postura natural, darse la vuelta y tumbarse en su interior, y que convivan juntos de forma
-        habitual. <br><br>
-        <strong> Importante:</strong> <br>
-
-        ✈ - Perros y gatos braquicéfalos (comúnmente llamados de nariz chata): NO son aceptados para el traslado como
-        equipaje acompañado, el transporte sólo podrá realizarse como Cargas. <br>
-        ✈ - Los perros de las siguientes razas: Pit bull terrier, Staffordshire bull terrier, American Staffordshire
+        habitual.</p>
+        <p> <strong> Importante:</strong></p>
+        <p> ✈ - Perros y gatos braquicéfalos (comúnmente llamados de nariz chata): NO son aceptados para el traslado como
+        equipaje acompañado, el transporte sólo podrá realizarse como Cargas.</p>
+        <p> ✈ - Los perros de las siguientes razas: Pit bull terrier, Staffordshire bull terrier, American Staffordshire
         terrier, Dogo argentino, Fila brasileño, Tosa inu, Akita inu, Dóberman, Rottweiler, Bullmastiff, Dogo de
         burdeos, Bull terrier, Gran perro japonés, Mastín napolitano, Presa canario, Ovejero alemán, Cane corso, solo
         podrán ser despachados a través de Cargas. Deberás verificar las condiciones para su transporte ingresando aquí.
@@ -162,8 +150,8 @@
     <!--Box con documentación requerida-->
     <div class="caja">
       <section class="cajaRoja">
-        <h3>Traslado de mascotas Cabotage<span class="badge bg-info">Novedad</span></h3><br>
-        <p><strong>DOCUMENTOS NECESARIOS PARA EL TRÁMITE</strong> <br>Si viajás con tu perro y/o gato al exterior, o por
+        <h3>Traslado de mascotas Cabotage<span class="badge bg-info">Novedad</span></h3>
+        <p> Si viajás con tu perro y/o gato al exterior, o por
           vía terrestre desde Argentina hacia Tierra del Fuego
           necesitás certificación del Senasa.
           Si vas a ingresar un perro y/o gato a la Argentina debés contar con una certificación del país de origen.
@@ -177,16 +165,12 @@
         </p>
       </section>
       <section class="cajaNegra">
-        <h3>Traslado de mascotas al exterior<span class="badge bg-info">Novedad</span></h3><br>
-        <p><strong>DOCUMENTOS NECESARIOS PARA EL TRÁMITE</strong> <br>
-          Presentar originales y fotocopias de la siguiente documentación: <br>
-
-          1 - Certificado de Salud, en ejemplar original extendido por Profesional Veterinario Privado en el modelo
-          provisto por el <br>
-          Consejo o Colegio de la jurisdicción,que se debera tramitar dentro de los diez (10) días previos a la emision
-          del <br> Certificado Veterinario Internacional.
+        <h3>Traslado de mascotas al exterior<span class="badge bg-info">Novedad</span></h3><p>
+            Presentar originales y fotocopias de la siguiente documentación:  1 - Certificado de Salud, en ejemplar original extendido por Profesional Veterinario Privado en el modelo
+          provisto por el Consejo o Colegio de la jurisdicción,que se debera tramitar dentro de los diez (10) días previos a la emision
+          del Certificado Veterinario Internacional.
           2 - Certificado de Vacunación Antirrábica en vigencia, extendido por un Profesional Veterinario Privado,en el
-          modelo provisto <br> por el Consejo o Colegio de la jurisdicción, con vacuna aprobada por SENASA. 
+          modelo provisto por el Consejo o Colegio de la jurisdicción, con vacuna aprobada por SENASA. 
         </p>
       </section>
     </div>
@@ -195,9 +179,7 @@
   <!--Contáctos y Redes-->
   <footer>
     <div class="autor">
-      <p>
-        Creado por Diego Gil
-      </p>
+      <a href="https://www.linkedin.com/in/diego-alfredo-gil-92390b19b/"> Creado por Diego Gil</a>
     </div>
     <div class="redes">
       <a href="https://es-la.facebook.com/aerolineas.argentinas/"target="_blanc"><img src="gifs/face.gif" alt="logo facebook"></a>

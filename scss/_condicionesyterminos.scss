@@ -6,34 +6,13 @@ $width: 900px;
 }
 
 main {
-  .box1 {
+  .box {
     @include espaciado();
-    background-color: darkorange;
     width: $width * 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
   }
-  .box2 {
-    @include espaciado();
-    background-color: darkorange;
-    width: $width / 2;
-  }
-  .box3 {
-    @include espaciado();
-    background-color: darkorange;
-    width: $width * 1.5;
-  }
-  .box4 {
-    @include espaciado();
-    background-color: darkorange;
-    width: $width + 100px;
-  }
-  .box5 {
-    @include espaciado();
-    background-color: darkorange;
-    width: $width * 3;
-  }
-  .box6 {
-    @include espaciado();
-    background-color: darkorange;
-    width: $width / 3;
-  }
+  
 }

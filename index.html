@@ -6,15 +6,23 @@
   <title> Compania Aérea Eleva</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN de estilos Animate-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Tipo de letra google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <!--Descripcion meta caracterisitcas página-->
   <meta name="description"
     content="Más de 300 destinos alrededor del mundo con Eleva. Reservá ya. Encuentre Vuelos en Oferta. ¡Reserve on Líne ahora! Check-in Online. Tarifas Exclusivas. Sin Costes Ocultos. Opciones Asiento. Opciones Equipaje.">
+    <!--Descripcion palabras del buscador-->
   <meta name="keywords" content="vuelos, destinos, viajes, promociones, ciudades, paises, mercosur, turismo, previaje ">
   <!-- link de bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <!-- link de css -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="imagenes/logoultimo.png">
+  <link rel="shortcut icon" href="imagenes/fotonlogo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -24,50 +32,51 @@
   <!------------ Comienza barra navegador Bootstrap----------------->
   <div class="container-fluid">
     <header class="row">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="imagenes/logoultimo.jpg" alt="foto de la empresa">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/fotonlogo.png" width="100px" height="100px" alt="foto de la empresa">
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" aria-current="page"
-                href="mireserva.html">Mi reserva</a>
+              <a class="nav-link active navbar navbar-dark  text-dark" aria-current="page" href="mireserva.html">Mi
+                reserva</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="checkin.html">Check-in
-                Online</a>
+              <a class="nav-link active navbar navbar-dark  text-dark" href="checkin.html">Check-in
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="estadodelvuelo.html">Estado del
+              <a class="nav-link active navbar navbar-dark  text-dark" href="estadodelvuelo.html">Estado del
                 vuelo</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle navbar navbar-dark bg-primary text-light" href="servicios.html"
+              <a class="nav-link active dropdown-toggle navbar navbar-dark  text-dark" href="servicios.html"
                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Adicionales
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
-                    href="servicios.html">Servicios</a></li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                <li><a class="dropdown-item navbar navbar-dark  text-dark" href="servicios.html">Servicios</a></li>
+                <li><a class="dropdown-item navbar navbar-dark  text-dark"
                     href="condicionesyterminos.html">Condiciones</a></li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="bags.html">Restringidos</a>
+                <li><a class="dropdown-item navbar navbar-dark  text-dark" href="bags.html">Restringidos</a>
                 </li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="mascotas.html">Mascotas</a>
+                <li><a class="dropdown-item navbar navbar-dark  text-dark" href="mascotas.html">Mascotas</a>
                 </li>
               </ul>
             </li>
           </ul>
-          <!--Boton Dropdown-->
+  <!--Boton Dropdown-->
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            <button class="btn btn-secondary dropdown-toggle bg-primary" type="button" id="dropdownMenuButton1"
               data-bs-toggle="dropdown" aria-expanded="false">
               País de Residencia
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <ul class="dropdown-menu mr-auto" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="#">Argentina <img width="15px" height="15px"
                     src="imagenes/banderaarg.jpg" alt="">(Español)</a></li>
               <li><a class="dropdown-item" href="#">Argentina <img width="15px" height="15px"
@@ -91,45 +100,22 @@
             </ul>
           </div>
         </div>
-        <!-- Buscador-->
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success navbar navbar-dark bg-primary text-light" type="submit">Buscar</button>
-        </form>
   </div>
   </nav>
-
   </header>
   <!--Comienzo de Carrusell-->
   <main class="main">
     <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="imagenes/Imagen-portada-adaptada-2.jpg" class="d-block w-100 " alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Mas conectividad</h3>
-            <p class="textocolor">Volá por Argentina sin pasar por Buenos Aires y acumulá millas</p>
-          </div>
+        <div class="carousel-item active" data-bs-interval="7000">
+          <img src="imagenes/Imagen-portada-adaptada-2.jpg" height="750px" class="d-block w-100 " alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="imagenes/paxbarbijo.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Requisitos para viajar<span class="badge bg-info">Novedad</span></h3>
-            <p class="textocolor">Protocolos sanitarios segun tu destino</p>
-          </div>
+          <img src="imagenes/paxbarbijo.jpg" height="750px" class="d-block w-100" alt="...">
+
         </div>
         <div class="carousel-item">
-          <img src="imagenes/previaje10.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Pre Viaje</h3>
-            <p class="textocolor">Viajando por Argentina ,recuperas tu dinero</p>
-          </div>
+          <img src="imagenes/previaje10.jpg" height="750px" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -141,52 +127,58 @@
         <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
-    <!--Formulario Busqueda de vuelos-->
-    <section class="formulario">
-      <form action="#">
-        <fieldset>
-          <legend>Vuelos</legend>
-          <div class="origendestino">
-            <label for="Origen">Origen</label>
-            <input type="text" name="Origen" placeholder="Origen">
-            <label for="Destino">Destino</label>
-            <input type="text" name="Destino" placeholder="Destino">
+  <!--Div para incluir Formulario en Carru-->
+    <div class="card-img-overlay">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-4 d-sm-block d-none">
           </div>
-          <div>
-            <label for="idayvuelta"></label>
-            <input type="radio" name="idayvuelta" value="Ida">Ida
-            <label for="idayvuelta"></label>
-            <input type="radio" name="idayvuelta" value="vuelta">Ida y Vuelta
-            <label for="idayvuelta"></label>
-            <input type="radio" name="idayvuelta" value="multidestino">Multidestino
-          </div>
-          <div>
-            <label for="Origen">Partida</label>
-            <input type="date" name="fecha" placeholder="Origen">
-            <label for="Destino">Regreso</label>
-            <input type="date" name="fecha" placeholder="Destino">
-          </div><br>
-          <div>
-            <label for="Pasajeros">Pasajeros</label>
-            <input type="text" name="Pasajeros" placeholder="Adulto,Niños,Bebes">
-          </div>
-          <div>
-            <label for="códigopromoción">Tengo código de promoción</label>
-            <input type="checkbox" name="códigopromoción">
-          </div>
-          <div>
-            <label for="submit" value="Buscar vuelos">
-              <input type="reset" value="Buscar vuelo">
-          </div>
-        </fieldset>
-    </section>
+        </div>
+  <!--Formulario Busqueda de vuelos-->
+        <section class="formulario">
+          <form action="#">
+            <h3>Vuelos</h3>
+              <div class="mb-3">
+                <label for="Origen">Origen</label>
+                <input type="text" name="Origen" placeholder="Origen">
+                <label for="Destino">Destino</label>
+                <input type="text" name="Destino" placeholder="Destino">
+              </div>
+              <div class="mb-3">
+                <label for="idayvuelta"></label>
+                <input type="radio" name="idayvuelta" value="Ida">Ida
+                <label for="idayvuelta"></label>
+                <input type="radio" name="idayvuelta" value="vuelta">Ida y Vuelta
+                <label for="idayvuelta"></label>
+                <input type="radio" name="idayvuelta" value="multidestino">Multidestino
+              </div>
+              <div class="mb-3">
+                <label for="Origen">Partida</label>
+                <input type="date" name="fecha" placeholder="Origen">
+                <label for="Destino">Regreso</label>
+                <input type="date" name="fecha" placeholder="Destino">
+              </div><br>
+              <div>
+                <label for="Pasajeros">Pasajeros</label>
+                <input type="text" name="Pasajeros" placeholder="Adulto,Niños,Bebes">
+              </div>
+              <div class="mb-3 form-check">
+                <label for="códigopromoción">Tengo código de promoción</label>
+                <input type="checkbox" name="códigopromoción">
+              </div>
+              <div>
+                <label for="submit" value="Buscar vuelos">
+                  <input type="reset" value="Buscar vuelo">
+              </div>
+          </form>
+        </section>
   </main>
 
   <!--Promociones Internacionales-->
   <section class="imagenes">
     <div class="row">
-      <h1 class="col-12">Destinos Internacionales, Rio de Janeiro, Paris, New York, Londres.. </h1>
-      <div class="col-3">
+      <h1 class=" col-12 animate__animated animate__backInLeft">Destinos Internacionales, Rio de Janeiro, Paris, New York, Londres.. </h1>
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://imaginariodejaneiro.com/"><img width="300px" height="300px" src="imagenes/rio.jpg"
               alt="foto de rio de janeiro" /></a>
@@ -194,7 +186,7 @@
           <div class="text text2">ARS 60.000</div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://es.parisinfo.com/"><img width="300px" height="300px" src="imagenes/Paris.jpg"
               alt="foto de torre Eiffel" /></a>
@@ -202,7 +194,7 @@
           <div class="text text2">ARS 110.000</div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://www.guiaturisticanuevayork.com/"><img width="300px" height="300px" src="imagenes/newyork.jpg"
               alt="foto de New York" /></a>
@@ -210,7 +202,7 @@
           <div class="text text2">ARS 80.000</div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://www.londres.es/"><img width="300px" height="300px" src="imagenes/london.jpg"
               alt="foto del Big Ben" /></a>
@@ -218,12 +210,10 @@
           <div class="text text2">ARS 100.000</div>
         </div>
       </div>
+  <!--Promociones Nacionales  -->
+      <h1 class="col-12 animate__animated animate__backInLeft">Destinos Nacionales, Bariloche, Cataratas, Ushuaia, Mendoza.. </h1>
 
-
-      <!--Promociones Nacionales  -->
-      <h1 class="col-12">Destinos Nacionales, Bariloche, Cataratas, Ushuaia, Mendoza.. </h1>
-
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://barilocheturismo.gob.ar/"><img width="300px" height="300px" src="imagenes/bari.jpg"
               alt="foto de bariloche" /></a>
@@ -231,7 +221,7 @@
           <div class="text text2">ARS 20.000</div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://www.misiones.tur.ar/es/iguazu/"><img width="300px" height="300px"
               src="imagenes/cataratas.jpg" alt="foto de cataratas" /></a>
@@ -239,7 +229,7 @@
           <div class="text text2">ARS 20.000</div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://www.ushuaia.gob.ar/turismo"><img width="300px" height="300px" src="imagenes/ushuaia.jpg"
               alt="foto de Ushuaia" /></a>
@@ -247,7 +237,7 @@
           <div class="text text2">ARS 35.000</div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
           <a href="https://mendoza.tur.ar/"><img width="300px" height="300px" src="imagenes/mendoza.jpg"
               alt="foto del Viñedp" /></a>
@@ -260,14 +250,13 @@
   <!--Redes-->
   <footer>
     <div class="autor">
-      <p>
-        Creado por Diego Gil
-      </p>
+      <a href="https://www.linkedin.com/in/diego-alfredo-gil-92390b19b/"> Creado por Diego Gil</a>
     </div>
     <div class="redes">
-      <a href="https://es-la.facebook.com/aerolineas.argentinas/" target="_blanc"><img src="gifs/face.gif" alt="logo facebook"></a>
-      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/" target="_blanc"><img src="gifs/insta.gif"
-          alt="logo instagram"></a>
+      <a href="https://es-la.facebook.com/aerolineas.argentinas/" target="_blanc"><img src="gifs/face.gif"
+          alt="logo facebook"></a>
+      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/" target="_blanc"><img
+          src="gifs/insta.gif" alt="logo instagram"></a>
       <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161" target="_blanc"><img src="gifs/mail.gif"
           alt="logo twitter"></a>
     </div>

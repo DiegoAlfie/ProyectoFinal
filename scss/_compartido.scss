@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: lightseagreen;
+ background-color: #734ae8;
+background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+;
   font-family: "Roboto", sans-serif;
 }
 main {
@@ -27,24 +29,29 @@ h2 {
   font-size: 30px;
   text-align: center;
   word-spacing: 5px;
+  font-family: 'Irish Grover', cursive;
 }
 h1 {
-  background-color: rgb(11, 42, 54);
+  background-color: #734ae8;
+background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
   color: whitesmoke;
   text-align: center;
   letter-spacing: 5px;
   padding: 15px;
   width: 100%;
+  font-family: 'Irish Grover', cursive;
 }
 h3 {
   color: antiquewhite;
   letter-spacing: 5px;
   text-align: center;
+  font-family: 'Irish Grover', cursive;
 }
 h4 {
   color: bisque;
   letter-spacing: 5px;
   text-align: center;
+  font-family: 'Irish Grover', cursive;
 }
 /* Formulario Mi reserva*/
 .formureserva {
@@ -59,7 +66,6 @@ h4 {
 footer {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
-  background-color: teal;
   padding: 1rem;
   width: 95%;
   height: 100px;
@@ -68,6 +74,7 @@ footer {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+
   .redes {
     color: #8d8c86;
     margin-left: 1.5;
@@ -78,7 +85,9 @@ footer {
     }
   }
   .autor {
-    font-weight: bold;
+    font-family: "Irish Grover", cursive;
+    color: navy;
+    font-size: 20px;
   }
 }
 

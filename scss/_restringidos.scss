@@ -1,16 +1,9 @@
-
-
 .main {
-  .conteiner-fluid {
+  .col-12 {
     padding: 40px;
     margin: 20px;
   }
-
-  .col-12 {
-    margin: 20px;
-  }
-
-  .carrion {
+  .valija {
     float: left;
     padding: 20px;
   }
@@ -28,4 +21,14 @@
   align-items: flex-start;
   justify-content: space-between;
   height: 25rem;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  margin: 10px;
+  padding: 10px;
+}
+.table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }

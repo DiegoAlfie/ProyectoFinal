@@ -6,6 +6,11 @@
     <title>Compania Aérea Eleva - Servicios Adicionales</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN de estilos Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <meta name="description"
         content="Reserva tu hotel · Arriendo de Auto ... Administra tu cuenta. Mi cuenta · Transfiere tus millas · Tarjeta de socio · Cuida tus transacciones ...">
     <meta name="keywords"
@@ -15,7 +20,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- link de css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="imagenes/logoultimo.jpg">
+    <link rel="shortcut icon" href="imagenes/fotonlogo.png">
 </head>
 
 <body>
@@ -23,115 +28,164 @@
     <div class="container-fluid">
         <header class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <img src="imagenes/logoultimo.jpg" alt="foto de la empresa">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/fotonlogo.png" width="100px" height="100px" alt="foto de la empresa">
+                </a>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active navbar navbar-dark bg-primary text-light" aria-current="page"
+                            <a class="nav-link active navbar navbar-dark  text-dark" aria-current="page"
                                 href="mireserva.html">Mi reserva</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active navbar navbar-dark bg-primary text-light"
-                                href="checkin.html">Check-in Online</a>
+                            <a class="nav-link active navbar navbar-dark  text-dark"
+                                href="checkin.html">Check-in</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active navbar navbar-dark bg-primary text-light"
+                            <a class="nav-link active navbar navbar-dark  text-dark"
                                 href="estadodelvuelo.html">Estado del vuelo</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle navbar navbar-dark bg-primary text-light"
+                            <a class="nav-link active dropdown-toggle navbar navbar-dark  text-dark"
                                 href="servicios.html" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Adicionales
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                                <li><a class="dropdown-item navbar navbar-dark text-dark"
                                         href="servicios.html">Servicios</a></li>
-                                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                                <li><a class="dropdown-item navbar navbar-dark text-dark"
                                         href="condicionesyterminos.html">Condiciones</a></li>
-                                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                                <li><a class="dropdown-item navbar navbar-dark text-dark"
                                         href="bags.html">Restringidos</a></li>
-                                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
+                                <li><a class="dropdown-item navbar navbar-dark text-dark"
                                         href="mascotas.html">Mascotas</a></li>
                             </ul>
                         <li class="nav-item">
-                            <a class="nav-link active navbar navbar-dark bg-info text-light" href="index.html">Volver
+                            <a class="nav-link active navbar navbar-dark bg-info text-dark" href="index.html">Volver
                                 Inicio</a>
                         </li>
                         </li>
                     </ul>
                 </div>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success navbar navbar-dark bg-primary text-light"
-                        type="submit">Search</button>
-                </form>
     </div>
     </nav>
 
     </header>
 
-    <h1>SERVICIOS</h1>
-    <!--Contenedor Padre de links de servicios-->
-    <main class="main-servicios">
-
+    <h1 class="animate__animated animate__backInLeft">SERVICIOS</h1>
+    <section class="imagenes">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="contenido">
+                    <a href="https://sp.booking.com/index.es-ar.html?aid=1141209&label=AA-OpcPage-banner-es_ar"><img width="400px" height="300px" src="gifs/hotel.gif"
+                    alt="matrimonio saltando en una cama" /></a>
+                    <div class="text text1">Reservá tu Hotel</div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-4">
+                <div class="contenido">
+                    <a href="https://www.hertz.com.ar/"><img width="400px" height="300px" src="gifs/autooo.gif"
+                    alt="diferentes autos" /></a>
+                    <div class="text text1 text-black">Alquilá tu auto</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-4">
+                <div class="contenido">
+                    <a href="https://www.assistcard.com/ar"><img width="400px" height="300px"src="gifs/assiscard.gif" alt="telefono sonando" /></a>
+                    <div class="text text1 text-black">Asistencia al viajero</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-4">
+                <div class="contenido">
+                    <a href="https://disneyworld.disney.go.com/es-us/vacation-planning/"><img width="400px" height="300px" src="gifs/disney.gif"
+                    alt="castillo de disney" /></a>
+                    <div class="text text1">Paquetes Disney World</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-4">
+                <div class="contenido">
+                    <a href="https://www.msccruceros.com.ar/es-ar/Homepage.aspx"><img width="400px" height="300px" src="gifs/cruise-cruiseship.gif"
+                    alt="gif de un crucero" /></a>
+                    <div class="text text1 text-black">Paquetes de Cruceros</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-4">
+                <div class="contenido">
+                    <a href="https://www.universalorlando.com/web/es/us"><img width="400px" height="300px"
+                    src="gifs/universal-intro.gif" alt="gif de universal" /></a>
+                    <div class="text text1">Paquetes Universal</div>
+                </div>
+            </div>
+        </div>    
+    <!--Contenedor Padre de links de servicios>
+    ><main class="main-servicios">
+        
         <div class="main-servicios__reserva">
             <a href="https://sp.booking.com/index.es-ar.html?aid=1141209&label=AA-OpcPage-banner-es_ar" target="_blank">
-                <img width="300px" height="200px" src="gifs/hotel.gif" alt="sanltando cama">
+                <img width="400px" height="300px" src="gifs/hotel.gif" alt="sanltando cama">
                 <h2>Reservá tu hotel</h2>
             </a>
         </div>
         <div class="main-servicios__Auto">
-            <a href="https://www.hertz.com.ar/" target="_blank"><img width="300px" height="200px"
-                    src="gifs/autooo.gif" alt="imagen de autos">
-                <h2>Reservá tu auto</h2>
-            </a>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://www.hertz.com.ar/" target="_blank"><img width="400px" height="300px"
+                        src="gifs/autooo.gif" alt="imagen de autos">
+                    <h2>Reservá tu auto</h2>
+                </a>
+            </div>
         </div>
         <div class="main-servicios__asis">
-            <a href="https://www.assistcard.com/ar" target="_blank"><img width="300px" height="200px"
-                    src="gifs/assiscard.gif" alt="telefono sonando">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://www.assistcard.com/ar" target="_blank"><img width="400px" height="300px"
+                src="gifs/assiscard.gif" alt="telefono sonando">
                 <h2>Asistencia al viajero</h2>
-            </a>
+                </a>
+            </div>
         </div>
         <div class="main-servicios__disney">
-            <a href="https://disneyworld.disney.go.com/es-us/vacation-planning/" target="_blank"><img width="300px"
-                    height="200px" src="gifs/disney.gif" alt="castillo disney">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://disneyworld.disney.go.com/es-us/vacation-planning/" target="_blank"><img width="400px"
+                height="300px" src="gifs/disney.gif" alt="castillo disney">
                 <h2>Paquetes Disney</h2>
-            </a>
+                </a>
+            </div>
         </div>
         <div class="main-servicios__crucero">
-            <a href="https://www.msccruceros.com.ar/es-ar/Homepage.aspx" target="_blank"><img width="300px"
-                    height="200px" src="gifs/cruise-cruiseship.gif" alt="imagen crucero">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://www.msccruceros.com.ar/es-ar/Homepage.aspx" target="_blank"><img width="400px" height="300px" src="gifs/cruise-cruiseship.gif" alt="imagen crucero">
                 <h2>Paquetes cruceros</h2>
-            </a>
+                </a>
         </div>
         </div>
         <div class="main-servicios__universal">
-            <a href="https://www.universalorlando.com/web/es/us" target="_blank"><img width="300px" height="200px"
-                    src="gifs/universal-intro.gif" alt="imagen universal">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <a href="https://www.universalorlando.com/web/es/us" target="_blank"><img width="400px" height="300px"
+                src="gifs/universal-intro.gif" alt="imagen universal">
                 <h2>Paquetes universal</h2>
-            </a>
+                </a>
+            </div>
         </div>
     </main>
-    <!--Contáctos y Redes-->
+    Contáctos y Redes-->
     <footer>
-        <div class="footer-servicios__autor">
-            <p><strong>
-                    Creado por Diego Gil
-                </strong></p>
+        <div class="autor">
+            <a href="https://www.linkedin.com/in/diego-alfredo-gil-92390b19b/"> Creado por Diego Gil</a>
         </div>
-        <div class="footer-servicios__redes">
-            <a href="https://es-la.facebook.com/aerolineas.argentinas/"target="_blanc"><img src="gifs/face.gif" alt="logo facebook"
-                    width="50px" height="50px"></a>
-            <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/"target="_blanc"><img src="gifs/insta.gif"
-                    alt="logo instagram" width="50px" height="50px"></a>
-            <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161"target="_blanc"><img src="gifs/mail.gif"
-                    alt="logo twitter" width="50px" height="50px"></a>
+        <div class="redes">
+            <a href="https://es-la.facebook.com/aerolineas.argentinas/" target="_blanc"><img src="gifs/face.gif"
+                    alt="logo facebook"></a>
+            <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/" target="_blanc"><img
+                    src="gifs/insta.gif" alt="logo instagram"></a>
+            <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161" target="_blanc"><img src="gifs/mail.gif"
+                    alt="logo twitter"></a>
         </div>
         </section>
     </footer>

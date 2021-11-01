@@ -6,6 +6,11 @@
   <title>Compania Aérea Eleva - Mi Reserva</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN de estilos Animate-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
   <meta name="description"
     content="Todo tu viaje con más destinos, más frecuencias y mejores tarifas. La Mejor Financiación con más de 30 bancos en aerolineas.com, vuelos baratos.">
   <meta name="keywords" content="reserva, vuelo, online, mascotas, mercosur, turismo, canil, promociones, bag.">
@@ -14,7 +19,7 @@
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <!-- link de css -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="imagenes/logoultimo.jpg">
+  <link rel="shortcut icon" href="imagenes/fotonlogo.png">
 </head>
 
 <body>
@@ -22,57 +27,54 @@
   <div class="container-fluid">
     <header class="row">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="imagenes/logoultimo.png" alt="foto de la empresa">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/fotonlogo.png" width="100px" height="100px" alt="foto de la empresa">
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" aria-current="page"
-                href="mireserva.html">Mi reserva</a>
+              <a class="nav-link active navbar navbar-dark  text-black" aria-current="page" href="mireserva.html">Mi
+                reserva</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="checkin.html">Check-in
-                Online</a>
+              <a class="nav-link active navbar navbar-dark  text-black" href="checkin.html">Check-in
+                </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-primary text-light" href="estadodelvuelo.html">Estado del
+              <a class="nav-link active navbar navbar-dark  text-black" href="estadodelvuelo.html">Estado del
                 vuelo</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link active dropdown-toggle navbar navbar-dark bg-primary text-light" href="#"
+              <a class="nav-link active dropdown-toggle navbar navbar-dark text-black" href="#"
                 id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Adicionales
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
-                    href="servicios.html">Servicios</a></li>
+                <li><a class="dropdown-item navbar navbar-dark text-black" href="servicios.html">Servicios</a></li>
                 <li><a class="dropdown-item navbar navbar-dark bg-primary text-light"
                     href="condicionesyterminos.html">Condiciones</a></li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="bags.html">Restringidos</a>
+                <li><a class="dropdown-item navbar navbar-dark text-black" href="bags.html">Restringidos</a>
                 </li>
-                <li><a class="dropdown-item navbar navbar-dark bg-primary text-light" href="mascotas.html">Mascotas</a>
+                <li><a class="dropdown-item navbar navbar-dark  text-black" href="mascotas.html">Mascotas</a>
                 </li>
               </ul>
             <li class="nav-item">
-              <a class="nav-link active navbar navbar-dark bg-info text-light" href="index.html">Volver Inicio</a>
+              <a class="nav-link active navbar navbar-dark bg-info text-black" href="index.html">Volver Inicio</a>
             </li>
             </li>
           </ul>
         </div>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success navbar navbar-dark bg-primary text-light" type="submit">Buscar</button>
-        </form>
   </div>
   </nav>
 
   </header>
   <!--Comienza formulario Mi reserva-->
   <main class="main">
-    <h1>Mi Reserva</h1>
+    <h1 class="animate__animated animate__backInLeft">Mi Reserva</h1>
     <div class="banner-area3">
       <div class="formureserva">
         <form>
@@ -98,15 +100,14 @@
   <!--Contáctos y Redes-->
   <footer>
     <div class="autor">
-      <p>
-        Creado por Diego Gil
-      </p>
+    <a href="https://www.linkedin.com/in/diego-alfredo-gil-92390b19b/"> Creado por Diego Gil</a>
     </div>
     <div class="redes">
-      <a href="https://es-la.facebook.com/aerolineas.argentinas/"target="_blanc"><img src="gifs/face.gif" alt="logo facebook"></a>
-      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/"target="_blanc"><img src="gifs/insta.gif"
-          alt="logo instagram"></a>
-      <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161"target="_blanc"><img src="gifs/mail.gif"
+      <a href="https://es-la.facebook.com/aerolineas.argentinas/" target="_blanc"><img src="gifs/face.gif"
+          alt="logo facebook"></a>
+      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/" target="_blanc"><img
+          src="gifs/insta.gif" alt="logo instagram"></a>
+      <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161" target="_blanc"><img src="gifs/mail.gif"
           alt="logo twitter"></a>
     </div>
     </section>
