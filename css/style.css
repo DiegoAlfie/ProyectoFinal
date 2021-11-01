@@ -94,14 +94,16 @@ footer {
 footer .redes {
   color: #8d8c86;
   margin-left: 1.5;
-  width: 2rem;
+  width: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
 }
 
 footer .redes img {
   width: 2.5rem;
+  
 }
 
 footer .autor {
