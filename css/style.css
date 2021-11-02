@@ -116,7 +116,21 @@ footer .autor {
 .textocolor {
   color: whitesmoke;
 }
-
+.banner-area1 {
+  background-image: url(../imagenes/cielo1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 60rem;
+}
 .banner-area2 {
   background-image: url(../imagenes/checkin2.jpg);
   background-size: cover;
@@ -132,7 +146,36 @@ footer .autor {
   justify-content: space-between;
   height: 40rem;
 }
-
+.banner-area3 {
+  background-image: url(../imagenes/cielo3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 60rem;
+}
+.banner-area4 {
+  background-image: url(../imagenes/bagmano2.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 25rem;
+}
 .terminos {
   font-size: 20px;
 }
@@ -147,21 +190,7 @@ main .box {
   margin: 5px;
 }
 
-.banner-area3 {
-  background-image: url(../imagenes/arrivals.jpg);
-  background-size: cover;
-  background-position: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 60rem;
-}
+
 
 * {
   margin: 0;
@@ -242,21 +271,7 @@ main .textomascota1 {
   border: double;
 }
 
-.banner-area4 {
-  background-image: url(../imagenes/bagmano2.jpeg);
-  background-size: cover;
-  background-position: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 25rem;
-}
+
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
