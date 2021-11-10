@@ -277,7 +277,7 @@ main .textomascota1 {
   font-size: 20px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   .mascota {
     float: none;
     width: 100%;
