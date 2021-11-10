@@ -15,7 +15,7 @@
   <!--Descripcion meta caracterisitcas página-->
   <meta name="description"
     content="Más de 300 destinos alrededor del mundo con Eleva. Reservá ya. Encuentre Vuelos en Oferta. ¡Reserve on Líne ahora! Check-in Online. Tarifas Exclusivas. Sin Costes Ocultos. Opciones Asiento. Opciones Equipaje.">
-    <!--Descripcion palabras del buscador-->
+  <!--Descripcion palabras del buscador-->
   <meta name="keywords" content="vuelos, destinos, viajes, promociones, ciudades, paises, mercosur, turismo, previaje ">
   <!-- link de bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -70,7 +70,7 @@
               </ul>
             </li>
           </ul>
-  <!--Boton Dropdown-->
+          <!--Boton Dropdown-->
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle bg-primary" type="button" id="dropdownMenuButton1"
               data-bs-toggle="dropdown" aria-expanded="false">
@@ -127,49 +127,55 @@
         <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
-  <!--Div para incluir Formulario en Carru-->
+    <!--Div para incluir Formulario en Carru-->
     <div class="card-img-overlay">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-sm-4 d-sm-block d-none">
           </div>
         </div>
-  <!--Formulario Busqueda de vuelos-->
+        <!--Formulario Busqueda de vuelos-->
         <section class="formulario">
           <form action="#">
             <h3>Vuelos</h3>
-              <div class="mb-3">
-                <label for="Origen">Origen</label>
-                <input type="text" name="Origen" placeholder="Origen">
-                <label for="Destino">Destino</label>
-                <input type="text" name="Destino" placeholder="Destino">
+            <div class="mb-3">
+              <label for="Origen">Origen</label>
+              <input type="text" name="Origen" placeholder="Origen">
+              <label for="Destino">Destino</label>
+              <input type="text" name="Destino" placeholder="Destino">
+            </div>
+            <div class="mb-3">
+              <div class="option">
+                <label for="ida">Ida</label>
+                <input id="ida" type="radio" name="idayvuelta" value="Ida">
               </div>
-              <div class="mb-3">
-                <label for="idayvuelta"></label>
-                <input type="radio" name="idayvuelta" value="Ida">Ida
-                <label for="idayvuelta"></label>
-                <input type="radio" name="idayvuelta" value="vuelta">Ida y Vuelta
-                <label for="idayvuelta"></label>
-                <input type="radio" name="idayvuelta" value="multidestino">Multidestino
+              <div class="option">
+                <label for="idayvuelta">Ida y Vuelta</label>
+                <input id="idayvuelta" type="radio" name="idayvuelta" value="vuelta">
               </div>
-              <div class="mb-3">
-                <label for="Origen">Partida</label>
-                <input type="date" name="fecha" placeholder="Origen">
-                <label for="Destino">Regreso</label>
-                <input type="date" name="fecha" placeholder="Destino">
-              </div><br>
-              <div>
-                <label for="Pasajeros">Pasajeros</label>
-                <input type="text" name="Pasajeros" placeholder="Adulto,Niños,Bebes">
+              <div class="option">
+                <label for="multidestino">Multidestino</label>
+                <input id="multidestino" type="radio" name="idayvuelta" value="multidestino">
               </div>
-              <div class="mb-3 form-check">
-                <label for="códigopromoción">Tengo código de promoción</label>
-                <input type="checkbox" name="códigopromoción">
-              </div>
-              <div>
-                <label for="submit" value="Buscar vuelos">
-                  <input type="reset" value="Buscar vuelo">
-              </div>
+            </div>
+            <div class="mb-3">
+              <label for="Origen">Partida</label>
+              <input type="date" name="fecha" placeholder="Origen">
+              <label for="Destino">Regreso</label>
+              <input type="date" name="fecha" placeholder="Destino">
+            </div><br>
+            <div>
+              <label for="Pasajeros">Pasajeros</label>
+              <input type="text" name="Pasajeros" placeholder="Adulto,Niños,Bebes">
+            </div>
+            <div class="mb-3 form-check">
+              <label for="códigopromoción">Tengo código de promoción</label>
+              <input type="checkbox" name="códigopromoción">
+            </div>
+            <div>
+              <label for="submit" value="Buscar vuelos">
+                <input type="reset" value="Buscar vuelo">
+            </div>
           </form>
         </section>
   </main>
@@ -177,62 +183,72 @@
   <!--Promociones Internacionales-->
   <section class="imagenes">
     <div class="row">
-      <h1 class=" col-12 animate__animated animate__backInLeft">Destinos Internacionales, Rio de Janeiro, Paris, New York, Londres.. </h1>
+      <h1 class=" col-12 animate__animated animate__backInLeft">Destinos Internacionales, Rio de Janeiro, Paris, New
+        York, Londres.. </h1>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://imaginariodejaneiro.com/" target="_blanc"><img width="300px" height="300px" src="imagenes/rio.jpg" alt="foto de rio de janeiro" /></a>
+          <a href="https://imaginariodejaneiro.com/" target="_blanc"><img width="300px" height="300px"
+              src="imagenes/rio.jpg" alt="foto de rio de janeiro" /></a>
           <div class="text text1">Buenos Aires - Rio..</div>
           <div class="text text2">ARS 60.000</div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://es.parisinfo.com/" target="_blanc"><img width="300px" height="300px" src="imagenes/Paris.jpg" alt="foto de torre Eiffel" /></a>
+          <a href="https://es.parisinfo.com/" target="_blanc"><img width="300px" height="300px" src="imagenes/Paris.jpg"
+              alt="foto de torre Eiffel" /></a>
           <div class="text text1">Buenos Aires - Paris..</div>
           <div class="text text2">ARS 110.000</div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://www.guiaturisticanuevayork.com/"target="_blanc"><img width="300px" height="300px" src="imagenes/newyork.jpg" alt="foto de New York" /></a>
+          <a href="https://www.guiaturisticanuevayork.com/" target="_blanc"><img width="300px" height="300px"
+              src="imagenes/newyork.jpg" alt="foto de New York" /></a>
           <div class="text text1">Buenos Aires - Nueva York..</div>
           <div class="text text2">ARS 80.000</div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://www.londres.es/"target="_blanc"><img width="300px" height="300px" src="imagenes/london.jpg"alt="foto del Big Ben" /></a>
+          <a href="https://www.londres.es/" target="_blanc"><img width="300px" height="300px" src="imagenes/london.jpg"
+              alt="foto del Big Ben" /></a>
           <div class="text text1">Buenos Aires - Londres..</div>
           <div class="text text2">ARS 100.000</div>
         </div>
       </div>
-  <!--Promociones Nacionales  -->
-      <h2 class="col-12 animate__animated animate__backInLeft">Destinos Nacionales, Bariloche, Cataratas, Ushuaia, Mendoza.. </h2>
+      <!--Promociones Nacionales  -->
+      <h2 class="col-12 animate__animated animate__backInLeft">Destinos Nacionales, Bariloche, Cataratas, Ushuaia,
+        Mendoza.. </h2>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://barilocheturismo.gob.ar/"target="_blanc"><img width="300px" height="300px" src="imagenes/bari.jpg" alt="foto de bariloche" /></a>
+          <a href="https://barilocheturismo.gob.ar/" target="_blanc"><img width="300px" height="300px"
+              src="imagenes/bari.jpg" alt="foto de bariloche" /></a>
           <div class="text text1">Buenos Aires - Bariloche..</div>
           <div class="text text2">ARS 20.000</div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://www.misiones.tur.ar/es/iguazu/"target="_blanc"><img width="300px" height="300px"src="imagenes/cataratas.jpg" alt="foto de cataratas" /></a>
+          <a href="https://www.misiones.tur.ar/es/iguazu/" target="_blanc"><img width="300px" height="300px"
+              src="imagenes/cataratas.jpg" alt="foto de cataratas" /></a>
           <div class="text text1">Buenos Aires - Cataratas..</div>
           <div class="text text2">ARS 20.000</div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://www.ushuaia.gob.ar/turismo"target="_blanc"><img width="300px" height="300px" src="imagenes/ushuaia.jpg" alt="foto de Ushuaia" /></a>
+          <a href="https://www.ushuaia.gob.ar/turismo" target="_blanc"><img width="300px" height="300px"
+              src="imagenes/ushuaia.jpg" alt="foto de Ushuaia" /></a>
           <div class="text text1">Buenos Aires - Ushuahia..</div>
           <div class="text text2">ARS 35.000</div>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="contenido">
-          <a href="https://mendoza.tur.ar/"target="_blanc"><img width="300px" height="300px" src="imagenes/mendoza.jpg" alt="foto del Viñedp" /></a>
+          <a href="https://mendoza.tur.ar/" target="_blanc"><img width="300px" height="300px" src="imagenes/mendoza.jpg"
+              alt="foto del Viñedp" /></a>
           <div class="text text1">Buenos Aires - Mendoza..</div>
           <div class="text text2">ARS 18.000</div>
         </div>
@@ -245,9 +261,12 @@
       <a href="https://www.linkedin.com/in/diego-alfredo-gil-92390b19b/"> Creado por Diego Gil</a>
     </div>
     <div class="redes">
-      <a href="https://es-la.facebook.com/aerolineas.argentinas/" target="_blanc"><img src="imagenes/fb.gif" alt="logo facebook"></a>
-      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/" target="_blanc"><img src="imagenes/ig.gif" alt="logo instagram"></a>
-      <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161" target="_blanc"><img src="imagenes/tw.gif" alt="logo twitter"></a>
+      <a href="https://es-la.facebook.com/aerolineas.argentinas/" target="_blanc"><img src="imagenes/fb.gif"
+          alt="logo facebook"></a>
+      <a href="https://www.instagram.com/challenge/?next=/aerolineas_argentinas/" target="_blanc"><img
+          src="imagenes/ig.gif" alt="logo instagram"></a>
+      <a href="https://twitter.com/aerolineas_ar/status/1334196105375068161" target="_blanc"><img src="imagenes/tw.gif"
+          alt="logo twitter"></a>
     </div>
     </section>
   </footer>
@@ -258,15 +277,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

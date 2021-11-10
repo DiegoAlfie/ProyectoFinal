@@ -31,4 +31,6 @@ p {
 .table {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
+  display: block;
+  overflow-x: auto;
 }

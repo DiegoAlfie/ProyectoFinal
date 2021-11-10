@@ -1,0 +1,14 @@
+.banner-area2 {
+  background-image: url(../imagenes/checkin2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 40rem;
+}
+@media (max-width: 767px) {
+  .banner-area2 {
+    background-image: url(../imagenes/cielo1.jpg);
+  }
+}
